@@ -40,7 +40,7 @@ pixel_to_robot_x = 0.2
 pixel_to_robot_y = 0.2
 
 # pose2 위치 (z축 고정)
-pose2_coords = [30.9, -327.5, 261.9, -170.94, 0.15, 170]
+pose2_coords = [87.4, -139.8, 411.8, -153.45, 0.03, 179.94]
 fixed_z = pose2_coords[2]
 lowered_z = fixed_z - 100
 
