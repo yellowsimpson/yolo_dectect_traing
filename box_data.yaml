@@ -3,8 +3,9 @@ names:
   1: red_box
   2: green_box
   3: yellow_box
-test: C:\Users\shims\Desktop\github\yolo_dectect_traing\box_data_7\test
-train: C:\Users\shims\Desktop\github\yolo_dectect_traing\box_data_7\train
-val: C:\Users\shims\Desktop\github\yolo_dectect_traing\box_data_7\val
+
+test: /Users/mac/Desktop/github/yolo_dectect_traing/box_data_7/test
+train: /Users/mac/Desktop/github/yolo_dectect_traing/box_data_7/train
+val: /Users/mac/Desktop/github/yolo_dectect_traing/box_data_7/val
 
 
