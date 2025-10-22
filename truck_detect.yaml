@@ -1,0 +1,5 @@
+names:
+  0: truck
+test: /home/shim/truck.v2-truck-detect.yolov8/test/
+train: /home/shim/truck.v2-truck-detect.yolov8/train/
+val: /home/shim/truck.v2-truck-detect.yolov8/val/
