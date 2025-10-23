@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['truck']
+
+roboflow:
+  workspace: test-pxiuh
+  project: truck-l0e32
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-pxiuh/truck-l0e32/dataset/2
