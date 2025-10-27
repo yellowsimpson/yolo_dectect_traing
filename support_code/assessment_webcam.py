@@ -31,18 +31,12 @@
 # cv2.destroyAllWindows()
 
 
-
-
-
-
-
-
 import cv2
 from ultralytics import YOLO
 
-model = YOLO("/home/shim/github/yolo_dectect_traing/runs/detect/train12/weights/best.pt")
+model = YOLO("/home/shim/ws/camera_ws/best.pt")
 
-cap = cv2.VideoCapture("/dev/video6")
+cap = cv2.VideoCapture("/dev/video2")
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 

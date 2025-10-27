@@ -7,14 +7,14 @@ save_dir = "/home/shim/github/yolo_dectect_traing/captured_images"
 os.makedirs(save_dir, exist_ok=True)
 
 # 카메라 장치 번호 지정 (2D 카메라)
-cap = cv2.VideoCapture("/dev/video6")
+cap = cv2.VideoCapture("/dev/video2")
 
 # 해상도 설정
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
 cap.set(cv2.CAP_PROP_FRAME_HEIGHT, 720)
 
 if not cap.isOpened():
-    print("❌ 카메라를 열 수 없습니다. /dev/video6 장치를 확인하세요.")
+    print("❌ 카메라를 열 수 없습니다. /dev/video2 장치를 확인하세요.")
     exit()
 
 count = 1

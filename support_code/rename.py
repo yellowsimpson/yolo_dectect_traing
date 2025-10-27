@@ -1,6 +1,6 @@
 import os
 
-folder = r"C:\Users\shims\Desktop\data_set\green_box"  # 파일들이 있는 폴더 경로
+folder = r"/home/shim/github/yolo_dectect_traing/captured_images"  # 파일들이 있는 폴더 경로
 prefix = 'green_'  # 붙이고 싶은 접두사
 
 for filename in os.listdir(folder):

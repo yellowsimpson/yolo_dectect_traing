@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['Diesel car', 'Electric car', 'Gasoline car']
+
+roboflow:
+  workspace: test-pxiuh
+  project: car_detection-cmbkv
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-pxiuh/car_detection-cmbkv/dataset/2
