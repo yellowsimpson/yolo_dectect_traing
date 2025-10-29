@@ -1,10 +1,10 @@
 import os
 
 # 🔧 설정 부분
-folder = r"/home/shim/github/yolo_dectect_traing/captured_images_1"  # 파일이 들어 있는 폴더 경로
-prefix = "car_detection"       # 새 이름 앞부분
+folder = r"/home/deepet/Desktop/yellowsimpson/github/yolo_dectect_traing/box_data_15_1"  # 파일이 들어 있는 폴더 경로
+prefix = "depth_"       # 새 이름 앞부분
 file_extension = ".jpg" # 바꾸고 싶은 확장자 (예: .jpg, .png, .txt)
-start_index = 1         # 시작 번호 (001부터 시작하도록)
+start_index = 182         # 시작 번호 (001부터 시작하도록)
 
 # -------------------------------
 count = start_index

@@ -1,11 +1,9 @@
 names:
-  0: blue_box
-  1: red_box
-  2: green_box
-  3: yellow_box
+  0: Cap
+  1: Nozzle
 
-test: /Users/mac/Desktop/github/yolo_dectect_traing/box_data_7/test
-train: /Users/mac/Desktop/github/yolo_dectect_traing/box_data_7/train
-val: /Users/mac/Desktop/github/yolo_dectect_traing/box_data_7/val
+test: /home/deepet/Desktop/yellowsimpson/github/yolo_dectect_traing/box_data_14_yolov8/test
+train: /home/deepet/Desktop/yellowsimpson/github/yolo_dectect_traing/box_data_14_yolov8/train
+val: /home/deepet/Desktop/yellowsimpson/github/yolo_dectect_traing/box_data_14_yolov8/valid
 
 

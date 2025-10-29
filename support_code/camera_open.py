@@ -2,8 +2,9 @@ import cv2
 
 # 외장 카메라 장치 번호 지정
 cap = cv2.VideoCapture("/dev/video6")
-#/dev/video6 : 2D카메라
-#/dev/video4 : depth 카메라
+#/dev/video8 : 2D카메라
+#/dev/video6 : depth 카메라
+
 
 # 프레임 크기 설정
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)

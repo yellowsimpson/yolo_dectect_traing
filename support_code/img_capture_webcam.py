@@ -3,11 +3,11 @@ import time
 import os
 
 # 저장 폴더 설정
-save_dir = "/home/shim/github/yolo_dectect_traing/captured_images"
+save_dir = "/home/deepet/Desktop/yellowsimpson/github/yolo_dectect_traing/box_data_15_1"
 os.makedirs(save_dir, exist_ok=True)
 
 # 카메라 장치 번호 지정 (2D 카메라)
-cap = cv2.VideoCapture("/dev/video2")
+cap = cv2.VideoCapture("/dev/video6")
 
 # 해상도 설정
 cap.set(cv2.CAP_PROP_FRAME_WIDTH, 1280)
