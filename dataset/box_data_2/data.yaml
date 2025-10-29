@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['box']
+
+roboflow:
+  workspace: test-pxiuh
+  project: box_detection-csrmt
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/test-pxiuh/box_detection-csrmt/dataset/1
