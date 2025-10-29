@@ -3,7 +3,7 @@ import time
 import os
 
 # 저장 폴더 설정
-save_dir = "/home/deepet/Desktop/yellowsimpson/github/yolo_dectect_traing/box_data_15_1"
+save_dir = "/home/deepet/Desktop/yellowsimpson/github/yolo_dectect_traing/capture"
 os.makedirs(save_dir, exist_ok=True)
 
 # 카메라 장치 번호 지정 (2D 카메라)
